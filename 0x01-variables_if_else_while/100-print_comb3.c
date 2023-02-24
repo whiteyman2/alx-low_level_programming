@@ -24,7 +24,7 @@ int main(void)
 			putchar(j + '0');
             	if (num != 89)
 		{
-			putchar(',')
+			putchar(',');
 			putchar(' ');
 		}
 		}

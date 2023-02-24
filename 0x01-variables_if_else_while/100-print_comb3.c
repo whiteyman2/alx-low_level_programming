@@ -12,17 +12,18 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-	
+
 		for (j = i + 1; j < 10; j++)
 		{
 			int num = i * 10 + j;
+			
 			if (num == 10 || num == 1)
 			{
 				continue;
 			}
 			putchar(i + '0');
 			putchar(j + '0');
-            	if (num != 89)
+		if (num != 90)
 		{
 			putchar(',');
 			putchar(' ');
@@ -31,4 +32,3 @@ int main(void)
 	}
 	return (0);
 }
-

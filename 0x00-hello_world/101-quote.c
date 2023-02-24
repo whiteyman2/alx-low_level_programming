@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-int write(int filedes, const char *buf, unsigned int nbyte);
+int write(void);
 int main(void)
 
 {

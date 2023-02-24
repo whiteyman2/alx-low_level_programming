@@ -5,21 +5,17 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- *     */
+ */
 int main(void)
 {
-	char low, e, q;
-
-	e = 'e';
-	q = 'q';
-
-	for (low = 'a'; low <= 'z'; low++)
+	char letter;
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (low != e && low != q)
+		if (letter != 'e' && letter != 'q')
 		{
-			putchar(low);
+			putchar(letter);
 		}
-	putchar("\n");
-	}
+	}	
+	putchar('\n');
 	return (0);
 }

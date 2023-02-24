@@ -8,19 +8,27 @@
  */
 int main(void)
 {
-	int d;
+	int i, j;
 
-	for (d = 0; d < 80; d++)
+	for (i = 0; i < 10; i++)
 	{
-		putchar((d / 10) + '0');
-		putchar((d % 10) + '0');
-		if (d != 89)
+	
+		for (j = i + 1; j < 10; j++)
 		{
-			putchar(',');
+			int num = i * 10 + j;
+			if (num == 10 || num == 1)
+			{
+				continue;
+			}
+			putchar(i + '0');
+			putchar(j + '0');
+            	if (num != 89)
+		{
+			putchar(',')
 			putchar(' ');
 		}
+		}
 	}
-	putchar('\n');
-
 	return (0);
 }
+

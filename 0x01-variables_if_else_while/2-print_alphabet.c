@@ -8,16 +8,14 @@
  */
 int main(void) 
 {
-	char letter = 'a';  // initialize the first letter
+	char letter = 'a';
 	        
-	        // loop through the alphabet and print each letter
-	while (letter <= 'z')
+	        while (letter <= 'z')
 {
-		putchar(letter);
-		letter++;  // move to the next letter
-}
-                            
-		putchar('\n');  // print a newline character at the end
+			putchar(letter);
+			letter++;
+}       	                   
+			putchar('\n');
 	
-	return 0;
+		return 0;
 }

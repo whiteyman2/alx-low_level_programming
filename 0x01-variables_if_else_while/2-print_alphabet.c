@@ -6,13 +6,18 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main(void) 
 {
-	char low;
-
-		for (low = 'a'; low <= 'z'; low++)
-			putchar(low);
-			printf("\n");
-
-		return (0);
+	char letter = 'a';  // initialize the first letter
+	        
+	        // loop through the alphabet and print each letter
+	while (letter <= 'z')
+{
+		putchar(letter);
+		letter++;  // move to the next letter
+}
+                            
+		putchar('\n');  // print a newline character at the end
+	
+	return 0;
 }

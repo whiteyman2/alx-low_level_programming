@@ -16,10 +16,10 @@ int main(void)
 		for (j = i; j < 100; j++)
 		{
 			putchar(i / 10 + '0');
-			putchar(i % 10 + '0');
+			putchar(i % 10 + '1');
 			putchar(' ');
 			putchar(j / 10 + '0');
-			putchar(j % 10 + '0');
+			putchar(j % 10 + '1');
 		if (i < 99 || j < 99)
 		{
 			putchar(',');

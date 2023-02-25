@@ -23,12 +23,13 @@ int main(void)
 			}
 			putchar(i + '0');
 			putchar(j + '0');
-		if (num != 88)
+		if (num != 89)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 		}
 	}
+	putchar('\n');
 	return (0);
 }

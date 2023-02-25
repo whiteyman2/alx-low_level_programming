@@ -17,7 +17,7 @@ int main(void)
 		{
 			int num = i * 10 + j;
 	
-			if (num == 10 || num == 1)
+			if (num == 8 || num == 9)
 			{
 				continue;
 			}

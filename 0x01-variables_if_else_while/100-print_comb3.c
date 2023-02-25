@@ -16,14 +16,14 @@ int main(void)
 		for (j = i + 1; j < 10; j++)
 		{
 			int num = i * 10 + j;
-	
+
 			if (num == 10 || num == 0)
 			{
 				continue;
 			}
 			putchar(i + '0');
 			putchar(j + '0');
-		if (num != 90)
+		if (num != 88)
 		{
 			putchar(',');
 			putchar(' ');

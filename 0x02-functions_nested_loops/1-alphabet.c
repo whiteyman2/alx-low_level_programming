@@ -5,20 +5,15 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
+	int t;
 
-	void print_alphabet(void)
-	{
-		int t;
-
-		for (t = 'a'; t <= 'z'; t++)
-		{	
-			_putchar(t);
-		}
-		_putchar('\n');
-
-		print_alphabet();
+	for (t = 'a'; t <= 'z'; t++)
+	{	
+		_putchar(t);
 	}
-	return (0);
+	_putchar('\n');
+
+	print_alphabet(0);
 }

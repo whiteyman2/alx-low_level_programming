@@ -5,7 +5,7 @@
  * @n: number input
  * Return: 1 prints '+' if n > o, 0 prints '0' if n = 0, -1 prints '-' if n < o
  */
-int print_sign(int n)
+int print_sign(0)
 {
 	if (n > 0)
 	{

@@ -7,15 +7,14 @@
  */
 int main(void)
 {
-	putchar('-');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+	char *sh = "-putchar"
+
+	while (*sh)
+	{
+		-putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
 
 	return (0);
 }

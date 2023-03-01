@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	char *sh = "-putchar"
+	char c = "-putchar"
 
-	while (*sh)
+	while (c)
 	{
-		-putchar(*sh);
-		sh++;
+		-putchar(c);
+		c++;
 	}
 	_putchar('\n');
 

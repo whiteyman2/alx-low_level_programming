@@ -8,29 +8,33 @@
  */
 void times_table(void)
 {
-	int i, j;
+	int rone, cone, d;
 
-	for (i = 0; i <= 9; i++)
+	for (rone = 0; rone <= 9; rone++)
 	{
-	for (j = 0; j <= 9; j++)
-	{
-		int product = i * j;
+		_putchar('0');
+		_putchar(',');
+		_putchar(' ');
+		for (cone = 1; cone <= 9; cone++)
+		{
+			d = (rone * cone);
+			if ((d / 10) > 0)
+			{
+				_putchar((d / 10) + '0');
+			}
+			else
+			{
+				_putchar(' ');
+			}
+			_putchar((d % 10) + '0');
 
-		if (product > 10)
-		{
-			 _putchar((product % 10) + '0');
-			 _putchar((product / 10) + '0');
+			if (cone < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
-		else
-		{
-			_putchar((product) + '0');
-		}
-		if (j < 9)
-		{
-			_putchar(',');
-			_putchar(' ');
-		}
+		_putchar('\n');
 	}
-	_putchar('\n');
-	}
+
 }

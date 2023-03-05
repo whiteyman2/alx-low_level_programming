@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int n, i, fib1 = 1, fib2 = 2, fib_next;
+	int i, fib1 = 1, fib2 = 2, fib_next;
 
 	printf("%d, %d, ", fib1, fib2);
 		for (i = 3; i <= 98; i++)
@@ -24,6 +24,5 @@ int main(void)
 			fib1 = fib2;
 			fib2 = fib_next;
 		}
-	printf("\n");
 	return (0);
 }
